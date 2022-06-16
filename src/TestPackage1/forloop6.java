@@ -7,12 +7,12 @@ public class forloop6 {
  
  {
 
-for(int i=18; i>=1; i--) // count increment
+for(int i=5; i>=1; i--) // count increment
 	
 	{
 	if ( i%2==1)
 	{
-				for (int j=16; j>=i; j--) // space decrement
+				for (int j=4; j>=i; j--) // space decrement
 		{
 				System.out.print(" ");
 			}

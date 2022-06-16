@@ -8,19 +8,19 @@ public class primenumber {
 		
 		for( int number=1; number<=100; number++)
 		{
-		for ( int i=2 ; i<=number-1; i++)
+		for ( int i=2 ; i<=number; i++)
 		{
 			if (number%i==0)
 			{
 				count=count +1;
 				
-				break;
+				
 			}
 			 if(count==0 )
 				 
 			 {
 				 
-			System.out.println  ( number);
+			System.out.println  ( +number);
 			
 		}
 			 else

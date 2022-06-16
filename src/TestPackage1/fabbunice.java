@@ -16,7 +16,7 @@ public class fabbunice {
 		for ( int i=1; i<10; i++)
 		{
 			c= a+b;
-	System.out.println( " "+ c);
+	System.out.println( "addition ="  +c);
 	
 	a=b;
 	b=c;
